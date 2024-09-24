@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="da">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ordrebekræftelse - Olsker Cupcakes</title>
+    <style>
+        /* Reset default margin and padding */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Main container */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            padding: 20px;
+        }
+
+        /* Header logo */
+        .logo-img {
+            width: 300px;
+            display: block;
+            margin: 20px auto;
+        }
+
+        /* Main content styling */
+        .confirmation-container {
+            padding: 40px;
+            text-align: center;
+            background-color: white;
+            margin: 20px auto;
+            width: 80%;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .confirmation-container h1 {
+            font-size: 36px;
+            color: #333;
+            margin-bottom: 10px;
+        }
+
+        .confirmation-container p {
+            font-size: 18px;
+            color: #666;
+            margin-bottom: 20px;
+        }
+
+        .order-summary {
+            margin-top: 30px;
+            text-align: left;
+            width: 70%;
+            margin: 0 auto;
+        }
+
+        .order-summary h2 {
+            font-size: 24px;
+            color: #333;
+            margin-bottom: 20px;
+        }
+
+        .order-summary div {
+            font-size: 18px;
+            margin-bottom: 10px;
+        }
+
+        .order-summary div span {
+            font-weight: bold;
+            color: #333;
+        }
+
+        /* Back to homepage button */
+        .back-btn {
+            background-color: #2a73ff;
+            color: white;
+            padding: 15px 30px;
+            border: none;
+            font-size: 18px;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-top: 30px;
+        }
+
+        .back-btn:hover {
+            background-color: #1f5fcc;
+        }
+    </style>
+</head>
+
+<body>
+<form action="/.idea/Cupcake.html" method="POST"form>
+
+<!-- Logo -->
+<img src="CupCakeW.png" alt="">
+
+<!-- Main content -->
+<div class="confirmation-container">
+    <h1>Tak for din bestilling!</h1>
+    <p>Din ordre er blevet modtaget og behandles. Du vil snart modtage en bekræftelse på email.</p>
+
+    <!-- Order summary section -->
+    <div class="order-summary">
+        <h2>Ordreoversigt:</h2>
+        <div><span>Valgt bund:</span> Chokolade</div>
+        <div><span>Valgt topping:</span> Jordbær</div>
+        <div><span>Antal cupcakes:</span> 3</div>
+        <div><span>Ordrenummer:</span> #123456</div>
+        <div><span>Samlet pris:</span> 120 DKK</div>
+    </div>
+
+    <!-- Back to homepage button -->
+    <button class="back-btn" onclick="window.location.href='Cupcake.html';">Tilbage til forsiden</button>
+
+</div>
+
+</body>
+
+
+</html>

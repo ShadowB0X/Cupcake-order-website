@@ -1,0 +1,82 @@
+
+    /* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Main container */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    padding: 20px;
+}
+
+/* Header logo */
+.logo-img {
+    width: 300px;
+    display: block;
+    margin: 20px auto;
+}
+
+/* Main content styling */
+.confirmation-container {
+    padding: 40px;
+    text-align: center;
+    background-color: white;
+    margin: 20px auto;
+    width: 80%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.confirmation-container h1 {
+    font-size: 36px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.confirmation-container p {
+    font-size: 18px;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.order-summary {
+    margin-top: 30px;
+    text-align: left;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.order-summary h2 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.order-summary div {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.order-summary div span {
+    font-weight: bold;
+    color: #333;
+}
+
+/* Back to homepage button */
+.back-btn {
+    background-color: #2a73ff;
+    color: white;
+    padding: 15px 30px;
+    border: none;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 30px;
+}
+
+.back-btn:hover {
+    background-color: #1f5fcc;
+}
